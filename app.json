@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ethanlu12.smartcablemachine"
     },
     "android": {
       "adaptiveIcon": {
@@ -34,6 +35,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "135afb1c-c1fb-439f-970b-16f680ca2993"
+      }
     }
   }
 }
